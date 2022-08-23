@@ -1,0 +1,18 @@
+[
+    {
+        "name":"weblogicDatasourceName",
+        "jndiName":"weblogicJndiName(ex:jdbc/myjndi)",
+		"dsURL":"datasourceurl",
+        "user":"datasourceusername",
+        "password":"datasourcepwd",
+        "target":"AdminServer"
+    },
+	{
+        "name":"weblogicDatasourceName",
+        "jndiName":"weblogicJndiName(ex:jdbc/myjndi)",
+		"dsURL":"datasourceurl",
+        "user":"datasourceusername",
+        "password":"datasourcepwd",
+        "target":"targetServer1,targetServer2"
+    }
+]
