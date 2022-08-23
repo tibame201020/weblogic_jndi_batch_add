@@ -4,7 +4,7 @@ quickly to add jndi
 
 # modify config
 
-open start.py and modify config to ur env setting
+open linux_start.py or windows_start.py to modify config into ur env setting
 
 ```bash
 adminUsername="weblogicUserName"
@@ -35,10 +35,10 @@ open data.json modify datasource data as json array
 
 windos
 ```bash
-start.py
+windows_start.py
 ```
 linux
 ```bash
-python start.py
+python linux_start.py
 ```
 
