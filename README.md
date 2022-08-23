@@ -24,7 +24,7 @@ open data.json modify datasource data as json array
 {
   "name":"weblogicDatasourceName",
   "jndiName":"weblogicJndiName(ex:jdbc/myjndi)",
-	"dsURL":"datasourceurl",
+  "dsURL":"datasourceurl",
   "user":"datasourceusername",
   "password":"datasourcepwd",
   "target":"AdminServer"
