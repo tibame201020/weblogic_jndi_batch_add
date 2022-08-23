@@ -33,7 +33,7 @@ open data.json modify datasource data as json array
 
 # run script
 
-windos
+windows
 ```bash
 windows_start.py
 ```
