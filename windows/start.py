@@ -13,9 +13,6 @@ adminURL="t3://localhost:7001"
 setDomainEnv="D:/Dev/Oracle/wls10/Middleware/user_projects/domains/base_domain/bin/setDomainEnv.cmd"
 execWlst="D:/Dev/Oracle/wls10/Middleware/wlserver_10.3/common/bin/wlst.cmd"
 
-#setDomainEnv="D:/Dev/Oracle/wls12/user_projects/domains/test_weblogic12/bin/setDomainEnv.cmd"
-#execWlst="D:/Dev/Oracle/wls12/wlserver/common/bin/wlst.cmd"
-
 #############################################################################
 #                                                                           #
 #                               script                                      #
