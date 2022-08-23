@@ -31,7 +31,7 @@ open data.json modify datasource data as json array
 }
 ```
 
-#run
+# run script
 
 windos
 ```bash
