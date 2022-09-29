@@ -5,7 +5,8 @@
 		"dsURL":"datasourceurl",
         "user":"datasourceusername",
         "password":"datasourcepwd",
-        "target":"AdminServer"
+        "target":"AdminServer",
+		"driverClass":"the datasource connector driver"
     },
 	{
         "name":"weblogicDatasourceName",
@@ -13,6 +14,7 @@
 		"dsURL":"datasourceurl",
         "user":"datasourceusername",
         "password":"datasourcepwd",
-        "target":"targetServer1,targetServer2"
+        "target":"targetServer1,targetServer2",
+		"driverClass":"oracle.jdbc.xa.client.OracleXADataSource"
     }
 ]

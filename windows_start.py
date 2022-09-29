@@ -29,6 +29,7 @@ for i in data:
     user=i['user']
     password=i['password']
     target=i['target']
+    driverClass=i['driverClass']
     
     copyCmd="xcopy config.py temp /Y"
     subprocess.call(copyCmd, shell=True)
@@ -43,6 +44,7 @@ for i in data:
     strs = strs + f.readline().replace('dataSourceUserName',user)
     strs = strs + f.readline().replace('dataSourcePassword',password)
     strs = strs + f.readline().replace('targetServerName',target)
+    strs = strs + f.readline().replace('driverClassName',driverClass)
     print(strs)
     line = f.readline()
  

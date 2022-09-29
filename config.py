@@ -7,6 +7,7 @@ dsURL="dataSourceUrl"
 dsUsername="dataSourceUserName"
 dsPassword="dataSourcePassword"
 dsTargetName="targetServerName"
+dsDriverClass="driverClassName"
 
 
 
@@ -28,7 +29,7 @@ set('JNDINames',jarray.array([String(dsJNDIName)], String))
 
 cd('/JDBCSystemResources/' + dsName + '/JDBCResource/' + dsName + '/JDBCDriverParams/' + dsName)
 cmo.setUrl(dsURL)
-cmo.setDriverName('oracle.jdbc.xa.client.OracleXADataSource')
+cmo.setDriverName(dsDriverClass)
 set('Password', dsPassword)
 
 
