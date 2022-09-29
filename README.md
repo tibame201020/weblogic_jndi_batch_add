@@ -27,7 +27,8 @@ open data.json modify datasource data as json array
   "dsURL":"datasourceurl",
   "user":"datasourceusername",
   "password":"datasourcepwd",
-  "target":"AdminServer"
+  "target":"AdminServer",
+  "driverClass":"the datasource connector driver(ex:oracle.jdbc.xa.client.OracleXADataSource)"
 }
 ```
 
